@@ -10,7 +10,7 @@ React Toastify
 JSON data
 </li>
 
-<h2>Features</h2>h2>
+<h2>Features</h2>
 <li>
 <p>Browse Technology Stacks — Users can view different technology options.</p>
 <p>Build Your Own Stack — Users can add technologies to their personal stack.</p>
