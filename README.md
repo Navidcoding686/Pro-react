@@ -35,8 +35,8 @@ JSON data
 <h2> Conditional Rendering</h2>
 <p>Conditional rendering means showing different UI depending on a condition.
 I used it for the empty stack message:<br>
-selectedStack.length === 0 ? <p> Your stack is empty. </p> : selectedStack.map((item) =>.....
-The message is shown only when there are no technologies in the user's stack.</p>
+selectedStack.length === 0 ? <p> Your stack is empty. </p> : selectedStack.map((item) =>.....<br>
+The message is shown only when there are no technologies in the user's stack otherwise it maps an array using key. </p>
 
 <h2>Passing data between child and component</h2>
 <p>A parent passes data to a child through props. A child can send something back by calling a function that the parent passes as a prop. In this project, the parent passes stack data and functions to child components. The child can call the provided function to tell the parent that an item should be removed.</p>
