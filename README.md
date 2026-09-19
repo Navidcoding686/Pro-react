@@ -1,7 +1,7 @@
-<h2>Dev Stack Builder Website</h2>h2>
+<h2>Dev Stack Builder Website</h2>
 <p>A simple and interactive React application where users can explore available technology stacks and build their own stack by adding and removing technologies.</p>
 
-<h2>Technologies Used</h2>h2>
+<h2>Technologies Used</h2>
 <li>
 React
 TypeScript
@@ -34,8 +34,8 @@ JSON data
 
 <h2> Conditional Rendering</h2>
 <p>Conditional rendering means showing different UI depending on a condition.
-I used it for the empty stack message:
-{stack.length === 0 && <p>Your stack is empty.</p>}
+I used it for the empty stack message:<br>
+{stack.length === 0 && <p>Your stack is empty.</p>}<br>
 The message is shown only when there are no technologies in the user's stack.</p>
 
 <h2>Passing data between child and component</h2>
